@@ -1,0 +1,31 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>ExtendClass</title>
+	<link rel="stylesheet" href="bower_components/bootstrap.css/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/extendclass.css">
+</head>
+<body>
+	<div class="container">
+		<div class="hero-unit">
+			<h1>extendClass</h1>
+			<p>Simple function and example of how to extend a JS Class</p>
+			<p>See src/extendclass.js</p>
+		</div>
+	</div>
+	<script src="bower_components/jquery/jquery.min.js"></script>
+	<script src="js/extendclass.js"></script>
+	<script>
+		var class1 = new Class1(),
+			class2 = new Class2();
+
+		console.log('class1',class1.getName());
+		console.log('class2',class2.getName());
+	</script>
+</body>
+</html>
